@@ -1,0 +1,114 @@
+/* stylelint-disable no-duplicate-selectors */
+
+/* deel 1: start CSS */
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+html {
+   background-color: #fff;
+}
+
+body {
+   border: 10px solid white;
+   height: 600px;
+   margin: 20px auto;
+   max-width: 300px;
+   padding: 40px 100px;
+}
+
+h1 {
+   margin-top: 30px;
+}
+
+main {
+   padding-top: 30px;
+}
+
+mark {
+   background-color: transparent;
+}
+
+footer {
+   margin-top: 35px;
+}
+
+/* deel 2: achtergronden */
+
+html{
+    background-image: url(../tile.png);
+    background-position: center;
+}
+
+body{
+    background-image: url(../bg.png);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+
+/* deel 3: lettertypes */
+
+body{
+    font-family: Arial sans-serif;
+}
+
+
+h1 {
+  text-align: center;  
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  color: rgb(68, 68, 68);
+  font-size: 50px;
+}
+
+
+
+
+
+/* deel 4: tekstopmaak */
+
+span{
+    color: red;
+}
+
+p {
+  font-family: "Indie Flower";
+  font-weight: 400;
+  font-style: normal;
+  color: blue;
+  font-size: 23px;
+  
+}
+
+mark{
+    color: black;
+    text-transform: uppercase;
+
+}
+
+
+/* deel 5: schaduwen */
+
+mark{
+    /* stylelint-disable-next-line color-function-notation */
+    text-shadow: 0px 0px 8px rgb(199, 45, 74);
+    font-weight: 600;
+}
+
+body{
+    /* stylelint-disable-next-line color-function-notation */
+    box-shadow: 10px 10px 12px rgba(0, 0, 0, 0.3);
+}
+
+footer{
+    text-align: right;
+    line-height: 1.6;
+}
+
+.date{
+    font-size: 16px;
+}

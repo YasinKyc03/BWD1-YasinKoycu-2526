@@ -1,0 +1,152 @@
+/**
+ *
+ * Common styles
+ *
+ * @author !put your name here!
+ *
+ */
+
+/* ===========================================
+   General
+   =========================================== */
+
+/* html, body and general element styles here */
+
+html{
+   background-color: #dfdfdd;
+}
+
+body{
+   background-color: #dfdfdd;
+}
+
+
+/* ===========================================
+   Menu
+   =========================================== */
+
+/* menu styles here */
+
+#topmenu ul{
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   justify-content: flex-start;
+   background-color: aliceblue;
+   align-items: center;
+}
+
+#topmenu ul li{
+   margin-right: 5px;
+}
+
+#topmenu ul li a{
+   font-family: Arial, sans-serif;
+   font-size: 16px;
+   text-decoration: none;
+   color: #333;
+   padding: 10px 15px;
+   display: block;
+}
+
+#topmenu ul li a:hover{
+   background-color: red;
+   color: #ddd;
+   border-radius: 4px;
+}
+
+
+
+/* ===========================================
+   Banner
+   =========================================== */
+
+/* banner styles here */
+
+#banner{
+   position: relative;
+   width: 100%;
+   margin: 0 auto;
+   
+   
+}
+
+#banner img{
+   border: 4px solid red;
+   width: 100%;
+   display: block;
+   height: auto;
+  
+}
+
+#banner p{
+   position: absolute;
+   bottom: -4px;
+   left: 0;
+   right: 0;
+   background-color: #333;
+   opacity: 0.9;
+   color: #ddd;
+   margin: 0;
+   padding: 15px;
+   height: 70px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   box-sizing: border-box;
+   
+
+   
+}
+
+
+
+
+
+/* ===========================================
+   Main
+   =========================================== */
+
+/* main styles here */
+
+
+
+
+a.more {
+  display: inline-block !important;
+  padding: 4px 10px !important;
+  border: 1px solid #a00 !important;
+  color: #a00 !important;
+  text-decoration: none !important;
+  border-radius: 4px !important;
+  font-weight: bold !important;
+  transition: 0.3s ease !important;
+}
+
+a.more:hover {
+  background-color: #a00 !important;
+  color: white !important;
+}
+
+
+h3{
+   text-transform: uppercase;
+   color: red;
+}
+
+
+h3::after {
+ content: " \2192";
+}
+
+
+/* ===========================================
+   Footer
+   =========================================== */
+
+/* footer styles here */
+
+footer{
+   text-align: center;
+}
