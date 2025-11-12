@@ -1,0 +1,64 @@
+/*
+ * Jouw oplossing hier
+ *
+ * @author Yasin Koycu <yasin.koycu@student.odisee.be>
+ */
+
+body {
+    box-shadow: 1px 5px 10px 15px #999;
+}
+
+#banner{
+  background-image: url(../img/laptop.jpg);
+  background-position: center;
+  border: 3px solid #f90000;
+}
+
+header{
+   font-size: 18px;
+   text-decoration: none;
+   color: #333;
+   padding: 10px 15px;
+   text-transform: capitalize;
+}
+
+header ul :hover{
+   color: #f90000;
+   text-decoration: none;
+}
+
+.active a {
+  color: #f90000;;
+}
+
+#form_search label{
+  background-color: #f90000;
+}
+
+p.banner_text{
+  font-size: 18px;
+}
+
+.feature_visual , h3, img{
+  text-align: center;
+}
+
+.feature p{
+  text-align: center;
+}
+
+#features .feature a {
+  text-align: center;
+  color: #f90000;
+}
+
+h2{
+  color:#f90000;
+  text-decoration: underline;
+  
+}
+
+h1{
+  color:#f6f5f5;
+  background-color: #f73e3e;
+}
